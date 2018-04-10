@@ -1,0 +1,17 @@
+{
+  "name": "windowsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . windowsapp --overwrite --asar=true"
+  },
+  "author": "Mukesh Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-packager": "^12.0.0"
+  },
+  "dependencies": {}
+}
